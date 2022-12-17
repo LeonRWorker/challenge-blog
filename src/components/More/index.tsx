@@ -9,7 +9,7 @@ export default function More () {
           Veja o guia definitivo para conquistar seus objetivos como DEV em 2022
         </Title>
         <Legend>
-          Quer receber dicas para melhorar sua produtividade e possivelmente uma vaga no mercado de trabalho, fique atento!
+          Quer receber dicas para melhorar sua produtividade e possivelmente uma vaga no mercado de trabalho?
         </Legend>
         <ViewMore>
           Veja mais
