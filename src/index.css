@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 * {
   margin: 0px;
   padding: 0px;
   outline: none;
+  font-family: 'Outfit';
   box-sizing: border-box;
 }
-body {
+/* body {
   background-color: #fbf6ff;
-}
+} */
