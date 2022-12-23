@@ -31,7 +31,8 @@ export const Options = styled.div`
         width: 100%;
         display: flex;
         cursor: pointer;
-        min-height: 200px;
+        min-height: 240px;
+        max-height: 240px;
         padding: 30px 20px;
         align-items: center;
         /* border-radius: 10px; */
@@ -53,7 +54,7 @@ export const Options = styled.div`
             text-align: center;
         }
         ${Text}:nth-child(3) {
-            width: 90%;
+            width: 100%;
             font-size: 1.1em;
             text-align: center;
         }
@@ -75,10 +76,11 @@ export const ToCheck = styled.div``
 export const CheckBox = styled.input`
     width: 100px;
     width: 250px;
-    height: 200px;
+    height: 240px;
+    cursor: pointer;
     appearance: none;
-    margin-bottom: -180px;
-    transform: translateY(25px);
+    margin-bottom: -230px;
+    transform: translateY(15px);
     :checked + ${Option} {
         transform: scale(1.05);
         border: 1px solid #290742;
